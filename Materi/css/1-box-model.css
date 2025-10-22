@@ -1,0 +1,15 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    /* Margin */
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    /* Border */
+    border: 2px solid black;
+    /* Padding */
+    padding-left: 100px;
+    padding-top: 100px;
+}

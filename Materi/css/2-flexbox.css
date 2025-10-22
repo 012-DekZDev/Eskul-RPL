@@ -1,0 +1,59 @@
+/* FLEXBOX */
+
+.items {
+    width: 100px;
+    /* height: 500px; */
+    background-color: rgb(255, 149, 149);
+    text-align: center;
+    margin-left: 10px;
+    line-height: 100px;
+}
+
+/* 1. FLEX DIRECTION
+    - row (default)
+    - column
+    - row-reverse
+    - column-reverse
+*/
+
+.container {
+    display: flex;
+    gap: 10px;
+    height: 100dvh;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    background-color: aqua;
+}
+
+/* 2. FLEX WRAP 
+    - nowrap (default)
+    - wrap
+    - wrap-reverse
+*/
+
+/* 3. FLEX FLOW 
+    - flex-direction flex-wrap
+*/
+
+/* 4. JUSTIFY CONTENT
+    - center
+    - flex-start
+    - space-between
+    - space-around
+    - space-evenly
+*/
+
+/* 5. ALIGN ITEMS
+    - strecth (default)
+    - center
+    - flex-start
+    - flex-end
+    - baseline
+*/
+/* 1. FLEX DIRECTION */
+/* 1. FLEX DIRECTION */
+/* 1. FLEX DIRECTION */
+/* 1. FLEX DIRECTION */

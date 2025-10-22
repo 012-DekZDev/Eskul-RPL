@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-1{
+    display: flex;
+    justify-content: center;
+    gap: 43rem;
+    background-color: yellowgreen;
+}
+
+.nav-1 div
+{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-1 div a
+{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.p-1 
+{
+    font-size: 20px;
+}
+
+.nav-2 
+{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-2 div
+{
+    background-color: brown;
+    padding: 200px;
+    height: 300px;
+    border: 10px solid;
+    
+}
+

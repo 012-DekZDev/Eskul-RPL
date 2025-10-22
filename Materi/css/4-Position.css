@@ -1,0 +1,85 @@
+body{
+    height: 3000px;
+}
+
+.salmon{
+    background-color: salmon;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.green{
+    background-color: green;
+}
+
+.grey{
+    background-color: grey;
+}
+
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    line-height: 100px;
+    text-align: center;
+    /* font-size: 40px; */
+}
+
+/* Position :
+    static - this default
+    relative
+    fixed
+    absolute
+    sticky
+ */
+
+.container{
+    height: 1000px;
+    border: 0.5px solid black;
+}
+
+/* Static */
+
+.static{
+    position: static;
+    right: 2000px;
+}
+
+/* Relative */
+
+.relative{
+    position: relative;
+    top: -150px;
+    right: -80px;
+}
+
+/* Absolute */
+
+.absolute{
+    position: absolute;
+    right: 180px;
+    top: 170px;
+}
+
+/* Fixed */
+
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Sticky */
+
+.sticky{
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
