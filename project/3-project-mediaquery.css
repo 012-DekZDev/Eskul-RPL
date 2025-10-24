@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+
+.profile{
+    width: 100%;
+    text-align: center;
+}
+
+.profile h1{
+    font-size: 70px;
+}
+
+.profile h4{
+    font-size: 25px;
+}
+
+.div-1{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .div-1{
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+.div-2{
+    max-width: 20%;
+    height: 450px;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: white;
+}
+
+.div-2 p{
+    line-height: 30px;
+}
+
+.div-3{
+    max-width: 30%;
+    border-radius: 20px;
+}
+
+
+.div-3 img{
+    max-width: 100%;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.div-4{
+    max-width: 20%;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.div-4 img{
+    width: 5%;
+    margin-top: 15px;
+}
+
+footer{
+    width: 100%;
+}
+
+footer h1{
+    display: flex;
+    justify-content: center;
+}
+
+.div-project h1{
+    text-align: center;
+}
+
+.div-project div ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 4rem;
+}
+
+.div-project-1{
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+.div-project-1 div ul li{
+    list-style: none;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.div-project-1 div ul li a{
+    text-decoration: none;
+}
+
+.div-project-1 div ul li img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+}
